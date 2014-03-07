@@ -8,7 +8,7 @@
 $(function () {
     var funcOne = function () {
         var one = 100;
-        console.log(one);
+        console.log('150');
     };
     funcOne();
 });

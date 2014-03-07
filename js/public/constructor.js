@@ -48,7 +48,7 @@ $(function () {
 
     Constructor.Views.Select = Backbone.View.extend({
         tagName:'select',
-        className: 'first_select',
+        className: '',
 
         initialize: function() {
             //this.render();
@@ -60,7 +60,7 @@ $(function () {
                 var optionView = new Constructor.Views.Option({model: option});
 
                 this.$el.append(optionView.render().el);
-                this.$el.attr('size', 2);
+                this.$el.attr('size', 6);
                 //console.log(personView);
             }, this);
 
@@ -74,7 +74,7 @@ $(function () {
         },
 
         addSection: function() {
-            console.log(this.$el);
+            console.log('change');
 
             this.$el.parent().nextAll().remove();
 
@@ -97,8 +97,41 @@ $(function () {
         {
             val: 3,
             name: 'Сезон 3'
+        },
+        {
+            val: 4,
+            name: 'Сезон 4'
+        },
+        {
+            val: 4,
+            name: 'Сезон 4'
+        },
+        {
+            val: 4,
+            name: 'Сезон 4'
+        },
+        {
+            val: 5,
+            name: 'Сезон 5'
+        },
+        {
+            val: 6,
+            name: 'Сезон 6'
+        },
+        {
+            val: 7,
+            name: 'Сезон 7'
+        },
+        {
+            val: 8,
+            name: 'Сезон 8'
+        },
+        {
+            val: 9,
+            name: 'Сезон 9'
         }
     ]);
+
 
 
     // BOX
@@ -107,7 +140,7 @@ $(function () {
 
     // View list
     Constructor.Views.Box = Backbone.View.extend({
-        className: 'select_box',
+        className: 'select_box scroll-pane',
         currentCollectionInside: optionCollection,
         initialize: function() {
             //this.render();
@@ -126,5 +159,6 @@ $(function () {
 
     var box = new Constructor.Views.Box();
     box.render();
+    //jQuery('.scroll-pane').jScrollPane();
 
 });

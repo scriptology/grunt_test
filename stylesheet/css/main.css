@@ -1,0 +1,148 @@
+/* line 17, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../sass/main.sass */
+body {
+  margin: 0;
+  padding: 10px;
+  font: 12px/12px Arial;
+}
+
+/* line 11, ../sass/main.sass */
+select::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: whitesmoke;
+}
+
+/* line 15, ../sass/main.sass */
+select::-webkit-scrollbar {
+  width: 10px;
+  background-color: whitesmoke;
+}
+
+/* line 19, ../sass/main.sass */
+select::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+/* line 22, ../sass/main.sass */
+.wrap_constructor {
+  padding: 20px;
+  background: whitesmoke;
+}
+/* line 25, ../sass/main.sass */
+.wrap_constructor h1 {
+  font: bold 30px/30px Arial;
+  color: #2c6cab;
+  margin-bottom: 20px;
+}
+/* line 31, ../sass/main.sass */
+.wrap_constructor .list .select_box {
+  width: 250px;
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  margin: 0 10px 10px 0;
+  background: white;
+  -webkit-box-shadow: #cccccc 0px 1px 8px;
+  -moz-box-shadow: #cccccc 0px 1px 8px;
+  box-shadow: #cccccc 0px 1px 8px;
+}
+/* line 40, ../sass/main.sass */
+.wrap_constructor .list .select_box .control_buttons {
+  margin-top: 10px;
+}
+/* line 42, ../sass/main.sass */
+.wrap_constructor .list .select_box select {
+  width: 100%;
+  font-size: 14px;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  border-right: 0;
+  outline: none;
+}
+/* line 50, ../sass/main.sass */
+.wrap_constructor .list .select_box input {
+  width: 100%;
+  background: white;
+  border-color: #adadad;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #cccccc;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  cursor: pointer;
+}
+/* line 65, ../sass/main.sass */
+.wrap_constructor .list .select_box input:hover {
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
