@@ -1,0 +1,63 @@
+{
+    "id": 24,
+    "title": "Название проекта",
+    "isActive": true,
+    "author": {
+        "id": "4",
+        "name": "Dmitry Krukov",
+        "profession": "Back-end developer",
+        "avatar": "/Devsearch_2/static/img/temp/temp_avatar.jpg"
+    },
+    "followers": 74,
+    "desc": "Проект спроектирован на основе банковской бухгалтерии, что позволяет интегрировать его с банками для автоматического совершения проводок по счетам. Система написана модулями, что позволяет вынести отдельные ее части на различные сервера.",
+    "city": "Москва",
+    "publication": "12.07.2014",
+    "tags": [
+        {
+            "id": 0,
+            "title": "python"
+        },
+        {
+            "id": 1,
+            "title": "ruby"
+        },
+        {
+            "id": 2,
+            "title": "grunt"
+        },
+        {
+            "id": 3,
+            "title": "sass"
+        },
+        {
+            "id": 4,
+            "title": "javascript"
+        },
+        {
+            "id": 5,
+            "title": "angular"
+        }
+    ],
+    "vacancy": [
+        {
+            "id": 0,
+            "title": "Back-end developer",
+            "active": true
+        },
+        {
+            "id": 1,
+            "title": "Front-end developer",
+            "active": true
+        },
+        {
+            "id": 2,
+            "title": "Designer",
+            "active": true
+        },
+        {
+            "id": 3,
+            "title": "iOS developer",
+            "active": true
+        }
+    ]
+}

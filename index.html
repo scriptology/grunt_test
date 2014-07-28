@@ -1,17 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="static/public/css/template.css">
-</head>
-<body>
+@@include('include_html/header.html')
 
-<div class="wrap">
-    <h1>Hello</h1>
+<div class="wrap" ng-app="GlobalModule">
+    @@include('include_html/blocks/top.html')
+
+    <div class="middle">
+        <div class="container">
+            <p>container</p>
+        </div>
+    </div>
+
+     
+    @@include('include_html/blocks/bottom.html')
 </div>
 
-<script type="text/javascript" src="static/public/js/scripts.js"></script>
-</body>
-</html>
+@@include('include_html/footer.html')

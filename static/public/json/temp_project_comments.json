@@ -1,0 +1,22 @@
+[
+    {
+        "id": 67,
+        "author": {
+            "id": 68,
+            "fullname": "Alex Petrov",
+            "avatar": "/Devsearch_2/static/img/temp/temp_avatar.jpg"
+        },
+        "text": "Всем привет! Это мой вопрос к команде",
+        "answers": [
+            {
+                "id": 67,
+                "author": {
+                    "id": 68,
+                    "fullname": "Alex Petrov",
+                    "avatar": "/Devsearch_2/static/img/temp/temp_avatar.jpg"
+                },
+                "text": "И тебе привет. Это ответ от команды"
+            }
+        ]
+    }
+]

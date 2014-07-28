@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic&subset=cyrillic-ext,latin);
 /* line 17, ../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,8 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 6, ../sass/template.sass */
+/* line 14, ../sass/template.sass */
 body {
-  padding: 0;
-  margin: 10px;
+  font: 12px/14px "Open Sans", sans-serif;
 }

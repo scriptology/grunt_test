@@ -1,0 +1,26 @@
+{
+    "id": 54,
+    "title": "Back-end developer",
+    "desc": "Подробное описание вакансии",
+    "active": true,
+    "candidat": [{
+        "id": 56,
+        "fullname": "Ivan Frolov",
+        "profession": "Back-end developer",
+        "avatar": "/Devsearch_2/static/img/temp/temp_avatar.jpg"
+    }],
+    "applicants": [
+        {
+            "id": 78,
+            "fullname": "Alex Petrov",
+            "profession": "Back-end developer",
+            "avatar": "/Devsearch_2/static/img/temp/temp_avatar.jpg"
+        },
+        {
+            "id": 46,
+            "fullname": "Michael Dorris",
+            "profession": "Back-end developer",
+            "avatar": "/Devsearch_2/static/img/temp/temp_avatar.jpg"
+        }
+    ]
+}

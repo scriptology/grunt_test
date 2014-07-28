@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Люди",
+        "url": "/Devsearch_2/template/profiles.html"
+    },
+    {
+        "title": "Проекты",
+        "url": "/Devsearch_2/template/project_list.html"
+    },
+    {
+        "title": "Вакансии",
+        "url": "/Devsearch_2/template/vacancy_list.html"
+    },
+    {
+        "title": "Добавить проект",
+        "url": "/Devsearch_2/template/peoples.html"
+    }
+]

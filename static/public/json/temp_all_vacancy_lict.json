@@ -1,0 +1,47 @@
+[
+    {
+        "id": 4,
+        "title": "Back-end developer",
+        "project": {
+            "id": 67,
+            "title": "Новостной портал"
+        },
+        "publication": "25.07.2014"
+    },
+    {
+        "id": 5,
+        "title": "Front-end developer",
+        "project": {
+            "id": 26,
+            "title": "Новый сервис"
+        },
+        "publication": "25.06.2014"
+    },
+    {
+        "id": 8,
+        "title": "Designer",
+        "project": {
+            "id": 86,
+            "title": "Социальная сеть"
+        },
+        "publication": "25.05.2014"
+    },
+    {
+        "id": 9,
+        "title": "Back-end developer",
+        "project": {
+            "id": 16,
+            "title": "Городской портал"
+        },
+        "publication": "25.04.2014"
+    },
+    {
+        "id": 12,
+        "title": "Back-end developer",
+        "project": {
+            "id":75,
+            "title": "IDE в браузере"
+        },
+        "publication": "25.02.2014"
+    }
+]
